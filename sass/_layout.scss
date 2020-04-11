@@ -1,0 +1,91 @@
+.container {
+     max-width: 120rem;
+     margin: 8rem auto;
+     background-color: var(--color-grey-light-2);
+     box-shadow: var(--shadow-dark);
+
+     min-height: 50rem; 
+
+            @media only screen and (max-width: $bg-largest) {
+                margin: 0;   
+            }
+}
+
+//!---------1> Header-----------------
+.header {
+    font-size: 1.4rem;
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--line);
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+//!--------2> content-----------------
+.content {
+    display: flex; 
+}
+ 
+  //*--------side-navbar------------
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+
+    flex: 0 0 18%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+   //*----------hotel all part--------------
+       //* gallry-img not + overwive-5 startline not + cta part is not 
+.hotel-view {
+    background-color: #fff;
+    
+    flex: 1;
+
+}
+
+//todo ----- detailes-------------------3 = 2 small + 1 big card componet -inclde
+.details {
+    font-weight: 1.4rem;
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+}
+      //? details > description = 1 big card------- desciption
+        .description {
+            background-color: #fff;
+            box-shadow: var(--shadow-light);
+            padding: 3rem;
+            flex: 0 0 60%;
+            margin-right: 4.5rem;
+        }
+
+    //? details > description = 2 small card-------- review 
+        .user-reviews {
+            flex: 1;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+/* todo----------------lay out model---------------------------
+*                     --Container--
+*    --header--                          --content--
+*                              side-bar           hotel-view
+*                                                  1> galler-img
+*                                                  2>overview
+*                                                  3>details     
+?                                                        I>> desripation  
+?                                                       II>user-reviews
+*                                                  4>cta--fotter-part-btn-part
+*
+                
+
+
+*/
