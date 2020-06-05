@@ -7,6 +7,4 @@
 
 - this is also for any one who want to learn a sass that learn eassy 
 
-- all comment i apply it
-
 #### created by Rajan savaliya.
