@@ -7,4 +7,4 @@
 
 - this is also for any one who want to learn a sass that learn eassy.
 
-### created by Rajan savaliya.
+## created by Rajan savaliya.
